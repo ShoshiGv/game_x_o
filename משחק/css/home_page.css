@@ -1,0 +1,63 @@
+
+@keyframes img1 {
+  0%   {left:0px;}
+  50%  {left:430px;}
+  100% {left:0px;} 
+}
+@keyframes img2 {
+  0%   {right:0px;}
+  50%  {right:430px;}
+  100% {right:0px;} 
+}
+@keyframes img3 {
+  0%   {left:0px;}
+  50%  {left:430px;}
+  100% {left:0px;} 
+}
+@keyframes img4 {
+  0%   {right:0px;}
+  50%  {right:430px;}
+  100% {right:0px;} 
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container >img{
+  margin: 10px;
+  width: 400px;
+  height: 400px;
+  position: relative; 
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+div{
+text-align: center;
+}
+
+body{
+  background-repeat: no-repeat;
+  background-image: url(../תמונות/מחברת\ לרקע\ תפריט.jpg); 
+  background-size: 100%;
+}
+
+#coteret{
+  color: brown;
+  font-size: 70px;
+  font-style: italic;
+  font-size: 80px ;
+}
+
+#log_out{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: brown;
+  color: white;
+  font-size: 20px;
+}

@@ -1,0 +1,23 @@
+body{
+    background-image: url(../תמונות/להוראות.jpg);
+    background-repeat: no-repeat;
+    background-size:70%;
+}
+.instructions{
+    font-size: 50px;
+    color: palevioletred;
+    text-align: center;
+    margin-right: 25%;
+    margin-top: 60px;
+}
+
+.start{
+    align-items: right;
+    margin-left: 70%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.botton{
+    width: 80px;
+}

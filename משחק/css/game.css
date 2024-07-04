@@ -1,0 +1,112 @@
+html , body{
+    background-image: url(../תמונות/רקע\ עם\ טבלה.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .button{
+    margin-top: 500px;
+    margin-left: 20px;
+    margin-right: 130px;
+    background-color: transparent;
+    width: 1250px;
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    }
+.button .bth{
+    font-family: cursive;
+    color: grey;
+    text-align: center;
+    font-size: 100px;
+    background-color:greenyellow;
+    width: calc(33% - 6px);
+    height: calc(33% - 6px);
+    margin: 3px;
+} */
+
+
+
+.button{
+    margin-top:300px;
+    margin-left: 250px;
+    margin-right: 0px;
+    margin-bottom: 5%px;
+    /* background-color:black; */
+    background-color: transparen;
+    width: 850px;
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    }
+.button .bth{
+    font-family: cursive;
+    color: grey;
+    text-align: center;
+    font-size: 100px;
+    text-align: center;
+    font-size: 100px;
+    background-color:transparent;
+    width: calc(33% - 6px);
+    height: calc(33% - 6px);
+    margin: 3px;
+}
+
+.back{
+
+    width: 120px;
+    height: auto;
+    margin-left: 0px;
+    margin-bottom: 800px;
+}
+#x{
+    
+    margin-bottom:800px;
+    font-size: 100px;
+    font-family: cursive;
+    color: grey;
+    margin-left: 0px; 
+    margin-right: 10px;
+
+}
+#o{
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-bottom:800px;
+    font-size: 100px;
+    color: transparent;
+    font-family: cursive;
+  
+}
+#timer{
+    font-size: 40px;
+}
+#the_timer{
+        font-size: 70px;
+        margin-left: 0px;
+        margin-top: 750px;
+        color: gray;
+        margin-left: 0px;
+        
+        
+        margin-right: 100PX;
+    
+}
+#timer_button{
+    
+    background-color: grey;
+    border-radius:10px ;
+    width: 150px;
+    height: 80px;
+    font-size: 20px;
+    
+}

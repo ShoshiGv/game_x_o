@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../css/login.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="background">
+        <!-- <div class="shape"></div> -->
+        <!-- <div class="shape"></div> -->
+    </div>
+    <div class="form">
+        <form id="sign_in" onsubmit="signIn(event)">
+            <label for="name">Name</label>
+            <input type="text" placeholder="name" id="name" required>
+            <label for="email" id="email_label">Email</label>
+            <input type="email" placeholder="email" id="email" required>
+            <label for="password">Password</label>
+            <input type="password" placeholder="password" id="password" required>
+            <button type="submit" id="sign_in_button" class="button">sign in</button>
+            <p>already have an account?</p>
+            <a onclick="move_to_logIn()" class="move_to_other_option">log in</a> 
+        </form>
+        <form id="log_in" onsubmit="logIn(event)">
+            <label for="name">Name</label>
+            <input type="text" placeholder="name" id="name2" required>
+
+            <label for="password">Password</label>
+            <input type="password" placeholder="password" id="password2" required>
+            
+            <button type="submit" id="log_in_button" class="button">log in</button>
+            <p>are you a new player?</p>
+            <a onclick="move_to_sign_In()" class="move_to_other_option">sign in</a>
+            
+        </form>
+    </div>
+
+    
+    </body>
+    </html>
+    
+
+
+</body>
+<script src="../js/login.js"></script>
+</html>
